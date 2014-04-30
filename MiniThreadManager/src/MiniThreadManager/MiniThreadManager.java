@@ -1,5 +1,3 @@
-//kkkkkkkkkk
-
 package MiniThreadManager;
 
 import java.util.List;
