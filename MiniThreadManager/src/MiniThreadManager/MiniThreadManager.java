@@ -195,6 +195,7 @@ public class MiniThreadManager {
 		endTime = DateTime.now();
 
 		// time to complete message
+		System.out.println("\n\n");
 		if (DEBUG_LEVEL >= 2) {
 			System.out.print(label + ": completed work on " + threadsToComplete + " threads in ");
 			System.out.print(Days.daysBetween(startTime, endTime).getDays() + " days, ");
